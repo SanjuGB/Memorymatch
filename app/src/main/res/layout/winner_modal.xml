@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/winModalRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:clickable="true"
+    android:focusable="true"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/winModal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/modal_bg"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/winTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎉 You Win!"
+            android:textColor="#4CAF50"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            android:fontFamily="serif-monospace"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/winScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Final Score: 0"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/playAgainButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Again"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textSize="16sp"
+            android:backgroundTint="#FFEB3B"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+    </LinearLayout>
+</FrameLayout>

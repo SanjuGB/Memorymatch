@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Memorymatch" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFD600</item>
+        <item name="colorPrimaryVariant">#FFEA00</item>
+        <item name="colorSecondary">#FFF59D</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFEB3B</item>
+        <item name="android:statusBarColor">#FFD600</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#121212</item>
+    </style>
+</resources>
